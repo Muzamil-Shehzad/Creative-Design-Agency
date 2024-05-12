@@ -1,0 +1,109 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  
+}
+.main {
+  flex: 1;
+}
+
+.logo {
+  width: 150px;
+  
+}
+
+h1 {
+  font-size: 4rem; 
+}
+
+footer {
+  text-align: center;
+  color: midnightblue;
+  height: 10px;
+  padding-bottom: 100px;
+}
+
+.span1{
+  color: rgba(187, 16, 175, 0.993);
+  background-color:rgb(0, 242, 255);
+}
+.span2{
+  color: rgb(245, 173, 4);
+  background-color: rgb(3, 17, 42);
+}
+
+.card {
+  width: 45%;
+  margin-bottom: 70px;
+}
+
+.left{
+  float: left;
+}
+
+.right {
+  float: right;
+}
+.card-title {
+   color: salmon;
+}
+
+.card-text{
+ color:rgb(2, 101, 106);
+}
+
+.tile-image {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  float: left;
+  margin-right: 50px;
+}
+
+.image-border {
+  border: 2px dashed rgba(249, 9, 149, 0.565);
+  padding: 20px;
+}
+
+@media (max-width: 680px){
+
+  .logo {
+    width: 100px;
+  }
+
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  
+  .card {
+    display: block;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+    
+  }
+
+
+    .card-text {
+    color: rgb(16, 0, 0);
+    
+  }
+
+
+}
+
+
+
+
